@@ -620,6 +620,8 @@ section.contact .btn-wrapper{
     transform: none;
     flex-direction: row;
     background-color: transparent;
+    color: white
+	  
   }
 
   .nav__btn {
