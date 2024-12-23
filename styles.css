@@ -82,6 +82,7 @@ a {
 
 .logo {
   max-width: 120px;
+  color: #970d44;
 }
 
 html,
@@ -105,9 +106,10 @@ nav {
   isolation: isolate;
   top: 0;
   width: 100%;
-  max-width: var(--max-width);
   margin: auto;
   z-index: 9;
+  background-color: white;
+  height: 50px;
 
 }
 
@@ -118,6 +120,7 @@ nav {
   justify-content: space-between;
   gap: 2rem;
   background-color: var(--primary-color);
+  
 }
 
 .nav__menu__btn {
@@ -139,6 +142,7 @@ nav {
   transform: translateY(-100%);
   transition: 0.5s;
   z-index: -1;
+  
 }
 
 .nav__links.open {
@@ -149,7 +153,7 @@ nav {
   position: relative;
   isolation: isolate;
   padding-bottom: 8px;
-  color: var(--white);
+  color: red;
   transition: 0.3s;
 }
 
