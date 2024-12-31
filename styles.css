@@ -95,10 +95,11 @@ body {
 }
 
 .header {
-  background-image: url("assets/home - Copy.jpg");
+  background-image: url("assets/home1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
 nav {
